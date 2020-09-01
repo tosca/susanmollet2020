@@ -40,9 +40,10 @@ p {
 	margin-left: 0;
 } 
 /***   navbar   ***/
-.navbar-brand {
+.navbar-light .navbar-brand {
 	padding-top: 0rem;
 	padding-bottom: 0rem;
+	color: #873609;
 }
 .navbar-nav li a {
     -webkit-transition: transform 0.5s linear;
