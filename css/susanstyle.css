@@ -292,12 +292,12 @@ background: linear-gradient(90deg, rgba(156,175,94,0.8815028901734104) 0%, rgba(
     color: #873609;
 	font-weight: 400;
 	letter-spacing: 0.15em;
-	margin-bottom: 0.5em;
 	text-transform: uppercase;
   }
   .content-details p{
 	color: #000;
-	font-size: 0.8em;
+	font-size: 0.7em;
+	text-transform: uppercase;
   }
   .fadeIn-bottom{
 	top: 80%;
@@ -399,16 +399,14 @@ html.opacity:hover img {
 	-webkit-transition: all 350ms ease-in-out 0s;
 }*/
 /* Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) { 
+@media (max-width: 400px) { 
 	.navbar-light .navbar-nav .nav-link {
 		line-height: normal;
 		color: #873609;
 		font-weight: 500;
 	} 
-	.content { 
-		display: flex;
-		padding: 20px;
-		width: 33%;			
+	.content-details h6 { 
+		font-size: 0.7em;
 	}	
 }
 
@@ -427,12 +425,12 @@ html.opacity:hover img {
 		padding: 2rem;
 	}
  }
-/*@media(any-hover)and(any-pointer: course) {
-	.content a:hover {
+@media(any-hover)and(any-pointer: course) {
+	.content:hover  .content-overlay {
 		opacity: 1;
 		border: 2px solid yellowgreen;
 	}
 	.nav-item a:hover { 
 		background: yellow;
 	}
-}*/
+}
