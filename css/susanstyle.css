@@ -11,6 +11,9 @@
 	line-height: 1.7;
 	width: 100%;	
 }
+.cursor-pointer{
+	cursor: pointer;
+  }
 .xs-pad-30 {
 	padding: 30px;
 }
@@ -234,6 +237,7 @@ background: linear-gradient(90deg, rgba(156,175,94,0.8815028901734104) 0%, rgba(
 }
 .content {
 	position: relative;
+	cursor: pointer;
 	width: 47%;
 	max-width: 400px;
 	padding: 15px;
@@ -251,13 +255,11 @@ background: linear-gradient(90deg, rgba(156,175,94,0.8815028901734104) 0%, rgba(
 	bottom:0;
 	right: 0;
 	opacity: 0;
-	cursor: pointer;
 	-webkit-transition: all 0.4s ease-in-out 0s;
 	-moz-transition: all 0.4s ease-in-out 0s;
 	transition: all 0.4 s ease-in-out 0s;
   } 
-  .content:hover .content-overlay {
-	cursor: pointer; 
+  .content a:hover .content-overlay {
 	opacity: 1;
 	
   }   
@@ -283,7 +285,6 @@ background: linear-gradient(90deg, rgba(156,175,94,0.8815028901734104) 0%, rgba(
   .content:hover .content-details {
 	top: 50%;
 	left: 50%;
-	cursor: pointer;
 	opacity: 1;
   } 
   .content-details h3, .content-details h4, .content-details h5, .content-details h6 {
@@ -426,7 +427,7 @@ html.opacity:hover img {
 		padding: 2rem;
 	}
  }
-@media(any-hover)and(any-pointer: course) {
+/*@media(any-hover)and(any-pointer: course) {
 	.content a:hover {
 		opacity: 1;
 		border: 2px solid yellowgreen;
@@ -434,4 +435,4 @@ html.opacity:hover img {
 	.nav-item a:hover { 
 		background: yellow;
 	}
-}
+}*/
