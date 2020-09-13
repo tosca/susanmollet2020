@@ -170,7 +170,7 @@ background: linear-gradient(90deg, rgba(156,175,94,0.8815028901734104) 0%, rgba(
 	max-height: 100%;
 }
 
- /* flip-card  */
+/* flip-card  */
   .flip-card-container {
 	position: relative;
 	width: 440px;
@@ -245,7 +245,7 @@ background: linear-gradient(90deg, rgba(156,175,94,0.8815028901734104) 0%, rgba(
 	overflow: hidden;
   }
 
-.content .content-overlay {
+.content-overlay {
 	background: rgba(255,255,255,0.7);
 	position: absolute;
 	height: 99%;
@@ -259,7 +259,7 @@ background: linear-gradient(90deg, rgba(156,175,94,0.8815028901734104) 0%, rgba(
 	-moz-transition: all 0.4s ease-in-out 0s;
 	transition: all 0.4 s ease-in-out 0s;
 } 
-.content:hover .content-overlay {
+.content:hover .content-overlay, .content:active .content-overlay  {
 	opacity: 1;	
 }   
 .content-image {
@@ -411,9 +411,12 @@ html.opacity:hover img {
 		font-size: 0.7em;
 	}	
 }
-/* Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { 	
- }*/
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+	.content-details h6 { 
+		font-size: 0.9em;
+	}		
+ }
 /* Large devices (desktops, 992px and up)
 @media (min-width: 992px) { 	
  }*/
@@ -429,12 +432,12 @@ html.opacity:hover img {
 		padding: 2rem;
 	}
  }
-@media(any-hover)and(any-pointer: course) {
-	.content:hover  .content-overlay {
+/*@media(hover: none)and(any-pointer: course) {
+	.content:hover .content-overlay {
 		opacity: 1;
 		border: 2px solid red;
 	}
 	.nav-item a:hover { 
 		background: yellow;
 	}
-}
+}*/
