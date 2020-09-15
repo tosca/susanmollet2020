@@ -409,10 +409,7 @@ html.opacity:hover img {
 	.content-details h6 { 
 		font-size: 0.7em;
 	}	
-	.hover {
-		-webkit-user-select: none;
-		-webkit-touch-callout: none;
-	}
+	
 }
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
@@ -435,12 +432,15 @@ html.opacity:hover img {
 		padding: 2rem;
 	}
  }
-/*@media(hover: none)and(any-pointer: course) {
-	.content:hover .content-overlay {
+@media(hover: none)and(any-pointer: course) {
+	.content a:hover .content-overlay {
 		opacity: 1;
-		border: 2px solid red;
 	}
 	.nav-item a:hover { 
 		background: yellow;
 	}
-}*/
+}
+.hover {
+		-webkit-user-select: none;
+		-webkit-touch-callout: none;
+	}
