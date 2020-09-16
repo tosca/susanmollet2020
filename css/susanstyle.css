@@ -259,9 +259,12 @@ background: linear-gradient(90deg, rgba(156,175,94,0.8815028901734104) 0%, rgba(
 	-moz-transition: all 0.4s ease-in-out 0s;
 	transition: all 0.4s ease-in-out 0s;
 } 
-.content:hover .content-overlay, .content:active .content-overlay {
+.content:hover .content-overlay {
 	opacity: 1;	
-}   
+} 
+a.tabhover:hover .content-overlay, a.tabhover.hover .content-overlay {
+ opacity:1;
+}
 .content-image {
 	width: 100%;
   }
@@ -282,11 +285,16 @@ background: linear-gradient(90deg, rgba(156,175,94,0.8815028901734104) 0%, rgba(
 	-moz-transition: all 0.4s ease-in-out 0s;
 	transition: all 0.4s ease-in-out 0s;
 } 
-.content:hover .content-details, .content.hover_effect .content-details {
+.content:hover .content-details {
 	top: 50%;
 	left: 50%;
 	opacity: 1;
 } 
+a.tabhover:hover .content-details, a.tabhover.hover .content-details {
+	top: 50%;
+	left: 50%;
+	opacity:1;
+   }
   .content-details h3, .content-details h4, .content-details h5, .content-details h6 {
 	font-family: 'Asul', sans-serif;
     color: #873609;
@@ -332,7 +340,9 @@ background: linear-gradient(90deg, rgba(156,175,94,0.8815028901734104) 0%, rgba(
 nav.next-prev {
 	margin: 20px 0;
 }
-
+a { 
+	display: inline-block;
+}
 a.prev, a.next {
 	display: block;
 	width: 20px;
