@@ -254,11 +254,12 @@ background: linear-gradient(90deg, rgba(156,175,94,0.8815028901734104) 0%, rgba(
 	bottom:0;
 	right: 0;
 	opacity: 0;
+	z-index: 5;
 	-webkit-transition: all 0.4s ease-in-out 0s;
 	-moz-transition: all 0.4s ease-in-out 0s;
-	transition: all 0.4 s ease-in-out 0s;
+	transition: all 0.4s ease-in-out 0s;
 } 
-.content:hover .content-overlay, .content.hover_effect .content-overlay {
+.content:hover .content-overlay, .content:active .content-overlay {
 	opacity: 1;	
 }   
 .content-image {
@@ -273,12 +274,13 @@ background: linear-gradient(90deg, rgba(156,175,94,0.8815028901734104) 0%, rgba(
 	top: 50%;
 	left: 50%;
 	opacity: 0;
+	z-index: 10;
 	-webkit-transform: translate(-50%, -50%);
 	-moz-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
-	-webkit-transition: all 0.3s ease-in-out 0s;
-	-moz-transition: all 0.3s ease-in-out 0s;
-	transition: all 0.3s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	transition: all 0.4s ease-in-out 0s;
 } 
 .content:hover .content-details, .content.hover_effect .content-details {
 	top: 50%;
