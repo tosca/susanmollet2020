@@ -259,9 +259,9 @@ background: linear-gradient(90deg, rgba(156,175,94,0.8815028901734104) 0%, rgba(
 	-moz-transition: all 0.4s ease-in-out 0s;
 	transition: all 0.4s ease-in-out 0s;
 } 
-.content:hover .content-overlay {
+/*.content:hover .content-overlay {
 	opacity: 1;	
-} 
+} */
 a.tabhover:hover .content-overlay, a.tabhover.hover .content-overlay {
  opacity:1;
 }
@@ -285,11 +285,11 @@ a.tabhover:hover .content-overlay, a.tabhover.hover .content-overlay {
 	-moz-transition: all 0.4s ease-in-out 0s;
 	transition: all 0.4s ease-in-out 0s;
 } 
-.content:hover .content-details {
+/*.content:hover .content-details {
 	top: 50%;
 	left: 50%;
 	opacity: 1;
-} 
+} */
 a.tabhover:hover .content-details, a.tabhover.hover .content-details {
 	top: 50%;
 	left: 50%;
