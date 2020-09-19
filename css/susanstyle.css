@@ -277,24 +277,24 @@ a.tabhover:hover .content-overlay, a.tabhover.hover .content-overlay {
 	top: 50%;
 	left: 50%;
 	opacity: 0;
-	z-index: 10;
+	/*z-index: 10;*/
 	-webkit-transform: translate(-50%, -50%);
 	-moz-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
-	-webkit-transition: all 0.4s ease-in-out 0s;
-	-moz-transition: all 0.4s ease-in-out 0s;
-	transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-moz-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
 } 
 /*.content:hover .content-details {
 	top: 50%;
 	left: 50%;
 	opacity: 1;
-} */
+}*/
 a.tabhover:hover .content-details, a.tabhover.hover .content-details {
 	top: 50%;
 	left: 50%;
 	opacity:1;
-   }
+   } 
   .content-details h3, .content-details h4, .content-details h5, .content-details h6 {
 	font-family: 'Asul', sans-serif;
     color: #873609;
