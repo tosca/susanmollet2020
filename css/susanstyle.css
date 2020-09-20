@@ -230,6 +230,42 @@ background: linear-gradient(90deg, rgba(156,175,94,0.8815028901734104) 0%, rgba(
 	display: flex;
 }
 
+
+/* ****cards *****/
+.card-title {
+    color: #873609;
+	line-height: 1.3;
+	text-align: center;
+ }
+nav.next-prev {
+	margin: 20px 0;
+}
+a { 
+	display: inline-block;
+}
+a.prev, a.next {
+	display: block;
+	width: 20px;
+	height: 15px;
+	text-indent: -9999px;
+}
+a.prev {
+	margin: 0 auto 5px auto;
+	background: transparent url('../images/scroll-arrow-up.png') 0 0 no-repeat;
+}
+a.prev:hover {
+		background: transparent url('../images/scroll-arrow-up.png') 0 -15px no-repeat;
+	}
+a.next {
+	margin: 5px auto 0 auto;
+	background: transparent url('../images/scroll-arrow-down2.png') -1px 0 no-repeat;
+}
+a.next:hover {
+	background: transparent url('../images/scroll-arrow-down2.png') -1px -15px no-repeat;
+}
+ a:hover { 
+		color:#000;
+}
 /* content */
 .content-container {
 	display: block;
@@ -244,7 +280,7 @@ background: linear-gradient(90deg, rgba(156,175,94,0.8815028901734104) 0%, rgba(
 	margin: auto;
 	overflow: hidden;
   }
-.content .content-overlay {
+.content-overlay {
 	background: rgba(255,255,255,0.7);
 	position: absolute;
 	height: 99%;
@@ -277,7 +313,6 @@ a.tabhover:hover .content-overlay, a.tabhover.hover .content-overlay {
 	top: 50%;
 	left: 50%;
 	opacity: 0;
-	/*z-index: 10;*/
 	-webkit-transform: translate(-50%, -50%);
 	-moz-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
@@ -331,41 +366,6 @@ a.tabhover:hover .content-details, a.tabhover.hover .content-details {
     transform: translateY(-50%);
 }
 
-/* ****cards *****/
-.card-title {
-    color: #873609;
-	line-height: 1.3;
-	text-align: center;
- }
-nav.next-prev {
-	margin: 20px 0;
-}
-a { 
-	display: inline-block;
-}
-a.prev, a.next {
-	display: block;
-	width: 20px;
-	height: 15px;
-	text-indent: -9999px;
-}
-a.prev {
-	margin: 0 auto 5px auto;
-	background: transparent url('../images/scroll-arrow-up.png') 0 0 no-repeat;
-}
-a.prev:hover {
-		background: transparent url('../images/scroll-arrow-up.png') 0 -15px no-repeat;
-	}
-a.next {
-	margin: 5px auto 0 auto;
-	background: transparent url('../images/scroll-arrow-down2.png') -1px 0 no-repeat;
-}
-a.next:hover {
-	background: transparent url('../images/scroll-arrow-down2.png') -1px -15px no-repeat;
-}
- a:hover { 
-		color:#000;
-}
 a, a:link,
 a:active,
 a:visited {
@@ -444,7 +444,7 @@ html.opacity:hover img {
 		padding: 2rem;
 	}
  }
-@media(hover: none)and(any-pointer: course) {
+/*@media(hover: none)and(any-pointer: course) {
 	.content a:hover .content-overlay {
 		opacity: 1;
 	}
@@ -455,4 +455,4 @@ html.opacity:hover img {
 .hover {
 		-webkit-user-select: none;
 		-webkit-touch-callout: none;
-	}
+	}*/
