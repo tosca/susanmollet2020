@@ -240,8 +240,16 @@ background: linear-gradient(90deg, rgba(156,175,94,0.8815028901734104) 0%, rgba(
 nav.next-prev {
 	margin: 20px 0;
 }
-a { 
-	display: inline-block;
+
+a, a:link,
+a:active,
+a:visited {
+	-webkit-transition: color 0.25s ease-out;
+	-moz-transition: color 0.25s ease-out;
+	transition: color 0.25s ease-out;
+	color: #a0410d;
+	outline: none;
+	text-decoration:none;
 }
 a.prev, a.next {
 	display: block;
@@ -298,8 +306,9 @@ a.next:hover {
 /*.content:hover .content-overlay {
 	opacity: 1;	
 } */
-a.tabhover:hover .content-overlay, a.tabhover.hover .content-overlay {
+a.taphover:hover .content-overlay, a.taphover.hover .content-overlay {
  opacity:1;
+ display: block;
 }
 .content-image {
 	width: 100%;
@@ -325,7 +334,7 @@ a.tabhover:hover .content-overlay, a.tabhover.hover .content-overlay {
 	left: 50%;
 	opacity: 1;
 }*/
-a.tabhover:hover .content-details, a.tabhover.hover .content-details {
+a.taphover:hover .content-details, a.taphover.hover .content-details {
 	top: 50%;
 	left: 50%;
 	opacity:1;
@@ -366,16 +375,7 @@ a.tabhover:hover .content-details, a.tabhover.hover .content-details {
     transform: translateY(-50%);
 }
 
-a, a:link,
-a:active,
-a:visited {
-	-webkit-transition: color 0.25s ease-out;
-	-moz-transition: color 0.25s ease-out;
-	transition: color 0.25s ease-out;
-	color: #a0410d;
-	outline: none;
-	text-decoration:none;
-}
+
 
 .btn { 
 	color: #fff;
