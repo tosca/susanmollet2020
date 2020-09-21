@@ -303,9 +303,9 @@ a.next:hover {
 	-moz-transition: all 0.4s ease-in-out 0s;
 	transition: all 0.4s ease-in-out 0s;
 } 
-/*.content:hover .content-overlay {
+.content:hover .content-overlay {
 	opacity: 1;	
-} */
+} 
 a.taphover:hover .content-overlay, a.taphover.hover .content-overlay {
  opacity:1;
  display: block;
@@ -338,7 +338,7 @@ a.taphover:hover .content-details, a.taphover.hover .content-details {
 	top: 50%;
 	left: 50%;
 	opacity:1;
-   } 
+ } 
   .content-details h3, .content-details h4, .content-details h5, .content-details h6 {
 	font-family: 'Asul', sans-serif;
     color: #873609;
