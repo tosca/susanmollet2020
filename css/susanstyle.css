@@ -233,9 +233,14 @@ background: linear-gradient(90deg, rgba(156,175,94,0.8815028901734104) 0%, rgba(
 
 /* ****cards *****/
 .card-title {
+	font-family: 'Asul', sans-serif; 
     color: #873609;
 	line-height: 1.3;
 	text-align: center;
+ }
+ .sold { 
+	 color:  #a0410d;
+	 font-size: large;
  }
 nav.next-prev {
 	margin: 20px 0;
