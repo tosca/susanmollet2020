@@ -9,7 +9,7 @@
             "request": "launch",
             "name": "Open index.html",
             "url": "http://susanmollet.com",
-            "file": "c:\\Root\\Projects\\susanmollet2020"
+            "file": "c:\\Root\\Projects\\susanmollet2020/index.html"
         }
     ]
 }
