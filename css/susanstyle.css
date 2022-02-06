@@ -151,10 +151,7 @@ img-responsive {
 }
 .card-body{
 	padding: 1.5rem;
-}
-.card-img-top{ 
-	padding: 0.5em;
-}  
+} 
 .story {
     font-family: 'Open Sans','Neucha', sans-serif;
     font-weight: 400; 
