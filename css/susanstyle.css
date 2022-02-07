@@ -133,7 +133,6 @@
 .page{
 	display: block;
 	position: relative;
-	padding-top: 3rem;
 	padding-bottom: 3rem;
 	overflow-x:hidden;
 	transition: all 25s ease-in-out;
@@ -174,10 +173,16 @@ img-responsive {
  }
  .section-sub {
 	font-family: 'Shadows into Light Two', 'Open Sans', sans-serif;
-	font-family: 'Architects Daughter', 'Open Sans', sans-serif;
+/*	font-family: 'Architects Daughter', 'Open Sans', sans-serif;*/
 	color: #04506e;
 	text-align: center;
+	font-style: italic;
  }
+ .section-text {
+	 font-family: 'Neucha', 'Open Sans', san-serif;
+	 padding: 2rem 5rem;
+ }
+
  .link-title { 
 	 font-size: 1.5rem;
 	 line-height: 1.4;
