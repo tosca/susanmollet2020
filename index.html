@@ -37,57 +37,58 @@
             </ul> 
         </div>  
     </nav>
-    <section id="home" class="page-section white-bg">
-        <h1 class="section-title"></h1>
-            </br>
-        <h4 class="section-sub">Hi, I'm Susan. </br> In my ceramic pieces, art does reflect life - my life.<br />
-            I am influenced by both daily situations and life changing events and the clay is my medium of expression.
-        </h4>        
-        <div class="content-container">  
-            <div class="d-flex align-items-start flex-wrap">
-                <div class="content p-3" role="button">
-                    <img class="content-image rounded shadow" src="images/vases-2022-1.jpg" alt="Susan Feller Mollet - homage sculpture" />
-                    <a class="taphover" href="#shop-sculpture"> 
-                        <div class="content-overlay"> 
-                            <div class="content-details fadeIn-bottom">  
-                                <h5>SHOP</h5>
-                                <h5>FUNCTIONAL Vases SCULPTURES, VASES</h5>
+    <section id="home" class="page-section">
+        <div class="page light-bg">
+            <h1 class="section-title"></h1>
+            <h3 class="section-sub p-lr">Hi, I'm Susan. In my ceramic pieces, art does reflect life - my life.<br />
+                I am influenced by both daily situations and life changing events and the clay is my medium of expression.
+            </h3>        
+            <div class="content-container">  
+                <div class="d-flex align-items-start flex-wrap">
+                    <div class="content p-3" role="button">
+                        <img class="content-image rounded shadow" src="images/vases-2022-1.jpg" alt="Susan Feller Mollet - homage sculpture" />
+                        <a class="taphover" href="#shop-sculpture"> 
+                            <div class="content-overlay"> 
+                                <div class="content-details fadeIn-bottom">  
+                                    <h5>SHOP</h5>
+                                    <h5>Functional Sculpture Vases</h5>
+                                </div>
                             </div>
-                        </div>
-                    </a>
+                        </a>
+                    </div>
+                    <div class="content p-3" role="button">
+                        <img class="content-image rounded shadow" src="images/chalices/chalice-22-2.jpg" class="cursor-pointer" alt="Susan Feller Mollet - shop Chalices" />
+                        <a class="taphover" href="#chalice">
+                            <div class="content-overlay"> 
+                                <div class="content-details fadeIn-bottom">
+                                    <h5>SHOP</h5>
+                                    <h5>Original<br />Sculptured Chalices</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="content p-3" role="button">
+                        <img class="content-image rounded shadow" src="images/homage-home03.jpg" alt="Susan Feller Mollet - homage sculpture" />
+                        <a class="taphover" href="#past"> 
+                            <div class="content-overlay"> 
+                                <div class="content-details fadeIn-bottom">  
+                                    <h5>ARCHIVED SCULPTURES</h5>
+                                    <h5>PAST SCULPTURES, INSTALLATIONS, EXHIBITS</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="content p-3" role="button">
+                        <img class="content-image rounded shadow" src="images/Susan-profile-2022.jpg" alt="Susan Feller Mollet - Found Chain sculpture" />
+                        <a class="taphover" href="#artist">   
+                            <div class="content-overlay">
+                                <div class="content-details fadeIn-right"> 
+                                    <h5>Contact me. Let's talk functional sculpture!</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>                 
                 </div>
-                <div class="content p-3" role="button">
-                    <img class="content-image rounded shadow" src="images/chalices/chalice-04.jpg" class="cursor-pointer" alt="Susan Feller Mollet - shop Chalices" />
-                    <a class="taphover" href="#chalice">
-                        <div class="content-overlay"> 
-                            <div class="content-details fadeIn-bottom">
-                                <h5>SHOP</h5>
-                                <h5>Original<br />Sculptured Chalices</h5>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="content p-3" role="button">
-                    <img class="content-image rounded shadow" src="images/homage-home03.jpg" alt="Susan Feller Mollet - homage sculpture" />
-                    <a class="taphover" href="#past"> 
-                        <div class="content-overlay"> 
-                            <div class="content-details fadeIn-bottom">  
-                                <h5>ARCHIVED SCULPTURES</h5>
-                                <h5>PAST SCULPTURES, INSTALLATIONS, EXHIBITS</h5>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="content p-3" role="button">
-                    <img class="content-image rounded shadow" src="images/Susan-profile-2022.jpg" alt="Susan Feller Mollet - Found Chain sculpture" />
-                    <a class="taphover" href="#artist">   
-                        <div class="content-overlay">
-                            <div class="content-details fadeIn-right"> 
-                                <h5>Contact me. Let's talk functional sculpture!</h5>
-                            </div>
-                        </div>
-                    </a>
-                </div>                 
             </div>
         </div>
     </section>       
@@ -758,16 +759,13 @@ crossorigin="anonymous"></script>
         $('.taphover').not($(this).toggleClass('hover')).removeClass('hover');
     });
 </script>
-
 <script>
     $('.navbar-nav>li>a').on('click', function () {
             $('.navbar-collapse').collapse('hide');
     });
 </script>
-
-src="https://www.paypal.com/sdk/js?client-id=AenFoB5g5QFRRdMhAdMXj94v9gNcq-JGkCJf3X8w3_VE_KwSNR5uYXPBPkBNN_bwk4hPHELXE4NqTZhg&currency=USD"> 
-</script> 
-  <script>
+<script src="https://www.paypal.com/sdk/js?client-id=AenFoB5g5QFRRdMhAdMXj94v9gNcq-JGkCJf3X8w3_VE_KwSNR5uYXPBPkBNN_bwk4hPHELXE4NqTZhg&currency=USD" ></script>
+<script>
     paypal.Buttons({
       createOrder: function(data, actions) {
         // This function sets up the details of the transaction, including the amount and line item details.
@@ -788,8 +786,7 @@ src="https://www.paypal.com/sdk/js?client-id=AenFoB5g5QFRRdMhAdMXj94v9gNcq-JGkCJ
       }
     }).render('#paypal-button-container');
     //This function displays Smart Payment Buttons on your web page.
-  </script>
-
+</script>
 </body>
 </html>
 
