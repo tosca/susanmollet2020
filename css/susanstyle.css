@@ -28,8 +28,6 @@
 	background-color: rgb(93, 136, 139);
 } 
 .grey-bg {
-	background: #d1d3d3;
-	background-color: #d5e2e7;
 	background-color: #ced3d5;
 }
 .cursor-pointer{
@@ -54,9 +52,8 @@
 	margin-top: 40px;
 }
 #wrapper {
-	position: relative;
+	position: absolute;
 	width: 100%;
-	margin-top: 90px;
 	overflow-x: hidden;
 	display: block;	
 }
@@ -124,6 +121,7 @@
 }
 .page-section{
 	position: relative;
+	padding-top: 60px;
 	overflow-x:hidden;
 	transition: all 25s ease-in-out;
 	-webkit-transition: all 25s ease-in-out;
@@ -135,7 +133,7 @@
 	padding-top: 3rem;
 	padding-bottom: 3rem;
 	overflow-x:hidden;
-	/*transition: all 25s ease-in-out;
+/*	transition: all 25s ease-in-out;
 	-webkit-transition: all 25s ease-in-out;*/
 } 
 img {
@@ -168,16 +166,17 @@ img-responsive {
     font-family: 'Shadows into Light Two', 'Open Sans', sans-serif;
 	 color: #04506e;
 	font-style: italic;
+	padding: 0 1rem;
 	line-height: 1.4;
 	text-align: center;
  }
  .section-sub {
-	font-family: 'Shadows into Light Two', 'Open Sans', sans-serif;
-/*	font-family: 'Architects Daughter', 'Open Sans', sans-serif;*/
+/*		font-family: 'Shadows into Light Two', 'Open Sans', sans-serif;*/
+font-family: 'Architects Daughter', 'Open Sans', sans-serif;
 	color: #04506e;
-	padding: 2rem 5rem;
 	text-align: center;
-	font-style: italic;
+	/*font-style: italic;*/
+	padding: 0 1rem;
  }
  .section-text {
 	 font-family: 'Neucha', 'Open Sans', san-serif;
