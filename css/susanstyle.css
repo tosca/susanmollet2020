@@ -12,7 +12,7 @@
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
 	line-height: 1.7;
-	background-color: #d1d3d3;
+	background-color: #d4d7d9;
 	color: #5e656e;	
 }
 @media (-webkit-transition) {
@@ -28,7 +28,7 @@
 	background-color: rgb(93, 136, 139);
 } 
 .grey-bg {
-	background-color: #ced3d5;
+	background-color: #d4d7d9;
 }
 .cursor-pointer{
 	cursor: crosshair;
@@ -129,7 +129,7 @@
 .page{
 	display: block;
 	position: relative;
-	margin-top: 3rem;
+	margin-top: 2rem;
 	padding-top: 3rem;
 	padding-bottom: 3rem;
 	overflow-x:hidden;
