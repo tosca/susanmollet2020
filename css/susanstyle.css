@@ -218,6 +218,9 @@ font-family: 'Architects Daughter', 'Open Sans', sans-serif;
 	line-height: 1.3;
 	text-align: center;
  }
+ #functional .card-body img{
+	 padding: 1.5rem;
+ }
  .sold { 
 	 color:  #f7c252;
 	 font-size: 1.2rem;
