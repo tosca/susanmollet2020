@@ -4,11 +4,9 @@
   }
  body {
 	 margin: 0 auto;
-	font-family: 'Architects Daughter', 'Open Sans',sans-serif;
+	/*font-family: 'Architects Daughter', 'Open Sans',sans-serif;
 	font-family: 'Neucha', 'Open Sans', sans-serif;
-	font-family: 'Rock salt', 'Open Sans', sans-serif;
-	font-family: 'Shadows into Light Two', 'Open Sans', sans-serif;
-	font-family: 'Dancing Script', 'Open Sans', sans-serif;
+	font-family: 'Shadows into Light Two', 'Open Sans', sans-serif;*/
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
 	line-height: 1.7;
@@ -171,11 +169,9 @@ img-responsive {
 	text-align: center;
  }
  .section-sub {
-/*		font-family: 'Shadows into Light Two', 'Open Sans', sans-serif;*/
 font-family: 'Architects Daughter', 'Open Sans', sans-serif;
 	color: #04506e;
 	text-align: center;
-	/*font-style: italic;*/
 	padding: 0 1rem;
  }
  .section-text {
