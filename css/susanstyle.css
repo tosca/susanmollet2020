@@ -11,7 +11,8 @@
 	font-size: 16px;
 	line-height: 1.7;
 	background-color: #d4d7d9;
-	color: #5e656e;	
+	color: #5e656e;
+	overflow-x:hidden;	
 }
 @media (-webkit-transition) {
 	/* CSS to use if transitions are supported */
@@ -31,7 +32,7 @@
 .cursor-pointer{
 	cursor: crosshair;
 }
-.ptb-40 { 
+/*.ptb-40 { 
 	padding-top: 40px;
 	padding-bottom: 40px;
 }
@@ -55,7 +56,7 @@
 	width: 100%;
 	overflow-x: hidden;
 	display: block;	
-}
+}*/
 /** {
     border-color: #e1e1e1;
     border-style: solid;
@@ -68,7 +69,8 @@
 }  
 .navbar{
 	background-color:#d4d7d9;
-} /***
+}
+/**
 .navbar-light .navbar-brand {
 	padding-top: 0rem;
 	padding-bottom: 0rem;
@@ -100,20 +102,19 @@
 	padding: 10px;
 	height: auto;
 }
-.row:after {
+/*.row:after {
 	content: "";
 	display: table;
 	clear: both;
-}
+}*/
 .page-section{
 	position: relative;
-	padding-top: 70px;	
+	padding-top: 80px;	
 } 
-img {
+/*img {
 	max-width: 100%;
 	max-height: 100%;
-	display: block;
-}
+}*/
 .card-body{
 	padding: 1.5rem;
 } 
@@ -134,14 +135,13 @@ img {
     font-family: 'Shadows into Light Two', 'Open Sans', sans-serif;
 	 color: #04506e;
 	font-style: italic;
-	padding: 0 1rem;
+	padding: 1rem;
 	line-height: 1.4;
 	text-align: center;
  }
  .section-sub {
-font-family: 'Architects Daughter', 'Open Sans', sans-serif;
-	color: #04506e;
-	max-width: 70%;
+	font-family: 'Architects Daughter', 'Open Sans', sans-serif;
+	color: #04506e;;
 	padding: 1rem;
  }
  .section-text {
@@ -193,6 +193,7 @@ font-family: 'Architects Daughter', 'Open Sans', sans-serif;
 .content {
 	position: relative;
 	cursor: pointer;
+	width: 90%;
 	width: 33%;
 	max-width: 400px;
 	padding: 15px;
@@ -210,16 +211,19 @@ font-family: 'Architects Daughter', 'Open Sans', sans-serif;
 	right: 0;
 	opacity: 0;
 	z-index: 5;
+	-webkit-transition: all 0.5s ease-in-out 0s;
 	transition: all 0.4s ease-in-out 0s;
 }
  .content:hover .content-overlay {
 	opacity: 1;	
+}
+.content-image{
+	width: 100%;
 } 
 a.taphover:hover .content-overlay, a.taphover.hover .content-overlay {
  opacity:1;
  display: block;
 }
-
 .content-details {
 	position: absolute;
 	text-align: center;
@@ -229,7 +233,9 @@ a.taphover:hover .content-overlay, a.taphover.hover .content-overlay {
 	top: 50%;
 	left: 50%;
 	opacity: 0;
+	-webkit-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
+	-webkit-transition: all 0.3s ease-in-out 0s;
 	transition: all 0.3s ease-in-out 0s;
 } 
 .content:hover .content-details {
