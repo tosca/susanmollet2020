@@ -3,93 +3,54 @@
 	padding: 0;
   }
  body {
-	/*font-family: 'Architects Daughter', 'Open Sans',sans-serif;
-	font-family: 'Neucha', 'Open Sans', sans-serif;
-	font-family: 'Shadows into Light Two', 'Open Sans', sans-serif;*/
-	font-family: 'Open Sans', sans-serif;
-	line-height: 1.7;
-	background-color: #d4d7d9;
-	color: #5e656e;
-
+  font-family: "Didact Gothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-optical-sizing: auto;
+	} 
+h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
+font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
 }
-@media (-webkit-transition) {
-	/* CSS to use if transitions are supported */
-  }
+p {
+	font-size: 22px;
+}
+.min-width {
+	min-width: 100%;
+}
+.signature { 
+	font-size: 2.5rem;
+}
  .white-bg  {
-	background: #e6eaeb;
+	background: #ffffff;
 }
 .light-bg  {
-	background-color: #dee2e6;
+	background-color: #fdfefe;
 }
 .shop-bg{
 	background-color: rgb(93, 136, 139);
 } 
-.grey-bg {
-	background-color: #d4d7d9;
-}
-
-.mtop {
-	margin-top: 40px;
-}*/
-#wrapper {
-	width: 100%;
-	padding-left: 1rem;
-	padding-right: 1rem;
-}
 .no-gutters {
 	margin-right: 0;
 	margin-left: 0;
-}  
-.navbar{
-	background-color:#d4d7d9;
 }
-.navbar-light .navbar-brand {
-	padding-top: 0rem;
-	padding-bottom: 0rem;
-	color: #04506e;	
-} 
-.navbar-light .navbar-nav .nav-link {
-	color: #04506e;
-	font-weight: 500;
-}
-.navbar-nav li a {
-	-webkit-transition: transform 0.5s linear;
-	transition: transform 0.5s linear;
-}
-.navbar-nav a:hover, .navbar-nav a:hover::before, .navbar-nav a:hover::after, .navbar-nav a:focus::before, .navbar-nav a:focus::after {
-	color: #000;
-	background-color: transparent !important;	
-	opacity: 1;
-	transform: translateX(0px);
-}
-.nav-link a:hover {
-	color:#296961;
-}
-.navbar-collapse {
-	padding-left: 2rem;
-}**/
 .column {
 	float: left;
 	width: 50%;
 	padding: 10px;
 	height: auto;
 }
-/*.row:after {
-	content: "";
-	display: table;
-	clear: both;
-}*/
 .page-section{
 	position: relative;
 	padding-top: 80px;	
 } 
-
 .card-body{
 	padding: 1.5rem;
 } 
 .story {
-    font-family: 'Open Sans','Neucha', sans-serif;
-    font-weight: 400; 
+	font-weight: 400; 
     font-size: 18px; 
 	 color: #873609;
     font-style:italic;
@@ -97,57 +58,26 @@
 .story-main { 
 	margin: 90px;
 }
+.mtop {
+	margin-top: 40px;
+}
+
 .bg-grad-70 { 
 	background: linear-gradient(90deg, rgba(156,175,94,0.7) 0%, rgba(242,237,123,0.7) 47%, rgba(163,98,10,0.7) 100%);		
 }
 .section-title {
-    font-family: 'Shadows into Light Two', 'Open Sans', sans-serif;
-	 color: #04506e;
-	font-style: italic;
+	color: #04506e;
 	padding: 1rem;
 	line-height: 1.4;
-	text-align: center;
  }
  .section-sub {
-	font-family: 'Architects Daughter', 'Open Sans', sans-serif;
 	color: #04506e;
 	text-align: center;
  }
- .section-text {
-	 font-family: 'Neucha', 'Open Sans', san-serif;
-	
- }
- .section, img, .btn:hover  {
-	-webkit-transition: all 350ms ease-in-out 0s;
-	transition: all 350ms ease-in-out 0s;	
-}
- .link-title { 
-	 font-size: 1.5rem;
-	 line-height: 1.4;
-	text-align: center;
- }
-.signature { 
-	font-family:'Shadows into Light Two', sans-serif;
-	font-style: italic;
-	font-size: 2.5rem;
-}
-.bg {
-	position:fixed;
-	display: block;
-	top: 0px;
-	left: 0px;
-	width:100%;
-	height:100%;
-	overflow: hidden;
-	background-position: 50% 50%;
-	background-repeat: no-repeat;
-	background-size: cover; 
-	backface-visibility: hidden;
- }	
-/* ****cards *****/
+
+ ****cards *****/
 .card-title {
-	font-family: 'Architects Daughter', 'Open Sans', sans-serif;
-    color: #4d656d;
+	 color: #4d656d;
 	line-height: 1.3;
 	text-align: center;
  }
@@ -155,7 +85,6 @@
 	display: block;
 	width:33%;
 }
-
 .content {
 	position: relative;
 	cursor: pointer;
@@ -166,24 +95,10 @@
 	margin: auto;
 	overflow: hidden;
   }
-.content-overlay {
-	background: rgba(178, 188, 216, 0.45);
-	position: absolute;
-	/*height: 99%;
-	width: 100%;
-	left: 0;
-	top:0;
-	bottom:0;
-	right: 0;
-	opacity: 0;*/
-	z-index: 5;
-	-webkit-transition: all 0.5s ease-in-out 0s;
-	transition: all 0.4s ease-in-out 0s;
-}
+
  .content:hover .content-overlay {
 	opacity: 1;	
 }
-
 a.taphover:hover .content-overlay, a.taphover.hover .content-overlay {
  opacity:1;
  display: block;
@@ -201,20 +116,9 @@ a.taphover:hover .content-overlay, a.taphover.hover .content-overlay {
 	transform: translate(-50%, -50%);
 	-webkit-transition: all 0.3s ease-in-out 0s;
 	transition: all 0.3s ease-in-out 0s;
-} 
-/*.content:hover .content-details {
-	top: 50%;
-	left: 50%;
-	opacity: 1;
-}*/
-a.taphover:hover .content-overlay, a.taphover.hover .content-details {
-	top: 50%;
-	left: 50%;
-	opacity:1;
- } 
+}  
   .content-details h3, .content-details h4, .content-details h5, .content-details h6 {
-	font-family: 'Architects Daughter', sans-serif;
-    color: #04506e;
+	color: #04506e;
 	font-weight: 400;
 	letter-spacing: 0.15em;
 	text-transform: uppercase;
@@ -247,16 +151,6 @@ a.taphover:hover .content-overlay, a.taphover.hover .content-details {
 .cursor-pointer{
 	cursor: crosshair;
 }
-/*
-.btn { 
-	color: #fff;
-}
-.left {
-    float: left;
-}
-.right {
-    float: right;
-} */
 hr {
 	margin: 10px 0;
 	border: none;
@@ -310,10 +204,10 @@ hr {
 	}
 }*/
 
-@mixin make-container($padding-x: $container-padding-x) {
+/* @mixin make-container($padding-x: $container-padding-x) {
   width: 100%;
   padding-right: $padding-x;
   padding-left: $padding-x;
   margin-right: auto;
   margin-left: auto;
-}
+}*/
