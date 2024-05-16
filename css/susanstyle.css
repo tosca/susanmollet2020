@@ -4,47 +4,43 @@
   }
  body {
 	font-family: "Quicksand", sans-serif;
-	font-optical-sizing: auto;
+	/*font-optical-sizing: auto;
 	font-weight: 400;
-	font-style: normal;
-	color:#000000; 
+	font-style: normal;*/
+	color:black;
+	overflow-x: hidden; 
 }
-img {
-	margin-bottom: 2rem;
-}	
-p {
-	font-size: 17px;
-}
+
 h1, .h1, h2, .h2, h3, .h3 {
 	font-family: "Poiret One", sans-serif;
-	font-optical-sizing: auto;
+	/*font-optical-sizing: auto;
 	font-weight: 400;
-	font-style: normal;
+	font-style: normal;*/
+}.white-bg  {
+	background: #ffffff8c;
 }
-.min-width {
-	min-width: 100%;
-}
-.white-bg  {
-	background: #ffffff;
+
+.figure-caption {
+	font-size: small-font-size;
+	color: gray-600;
 }
 .light-bg  {
 	background-color: #fdfefe;
 }
-.no-gutters {
+/*.no-gutters {
 	margin-right: 0;
 	margin-left: 0;
-}
+}*/
 .column {
 	float: left;
 	width: 50%;
 	padding: 10px;
 	height: auto;
 }
-.page-section{
-	position: relative;
-	padding-top: 40px;	
-}  
 .mtop {
+	margin-top: 36px;
+}
+.mtop-40 {
 	margin-top: 40px;
 }
 .section-title {
@@ -75,7 +71,13 @@ hr {
 	border-bottom: 2px solid #04506e;
 	height: 3px;
 }
-@media only screen and (min-width: 1000px) {
-	/* For large screens: */
-	.words {margin-right: 4rem; margin-left: 4rem}
+a {
+	text-decoration : none;
 }
+a:hover {
+	text-decoration-line: underline;
+
+}
+/*@media only screen and (min-width: 1000px) {
+	.words {margin-right: 4rem; margin-left: 4rem}
+}*/
