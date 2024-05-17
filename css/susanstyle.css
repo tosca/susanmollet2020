@@ -14,7 +14,7 @@ h1, .h1, h2, .h2, h3, .h3 {
 	font-style: normal;*/
 }
 .white-bg  {
-	background-color: #c0d0ca;
+	background-color: #dfeae5;
 }
 .figure-caption {
 	font-size: small-font-size;
@@ -28,6 +28,9 @@ h1, .h1, h2, .h2, h3, .h3 {
 	width: 50%;
 	padding: 10px;
 	height: auto;
+}
+.page-top{
+	margin-top: 9rem;
 }
 .mtop {
 	margin-top: 36px;
