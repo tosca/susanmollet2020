@@ -1,6 +1,7 @@
 *, *:before, *:after {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
   }
  body {
 	font-family: "Quicksand", sans-serif;
@@ -12,6 +13,15 @@ h1, .h1, h2, .h2, h3, .h3 {
 	/*font-optical-sizing: auto;
 	font-weight: 400;
 	font-style: normal;*/
+}
+#more {
+	display:none;
+}
+#myBtn {
+	margin-left: 5rem ;
+	margin-bottom: 4rem;
+	background-color: rgb(127, 165, 69);
+	color:black;
 }
 .white-bg  {
 	background-color: #dfeae5;
