@@ -8,12 +8,13 @@
 	color:black;
 	overflow-x: hidden; 
 }
-h1, .h1, h2, .h2, h3, .h3 {
+h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 	font-family: "Poiret One", sans-serif;
 	/*font-optical-sizing: auto;
 	font-weight: 400;
 	font-style: normal;*/
 }
+  
 #more {
 	display:none;
 }
@@ -23,8 +24,8 @@ h1, .h1, h2, .h2, h3, .h3 {
 	background-color: rgb(127, 165, 69);
 	color:black;
 }
-.white-bg  {
-	background-color: #dfeae5;
+.homepage-bg  {
+	background-color: rgba(255, 255, 255, 0.3);
 }
 .figure-caption {
 	font-size: small-font-size;
@@ -39,8 +40,8 @@ h1, .h1, h2, .h2, h3, .h3 {
 	padding: 10px;
 	height: auto;
 }
-.page-top{
-	margin-top: 9rem;
+.page-top {
+	margin-top: 5rem;
 }
 .mtop {
 	margin-top: 36px;
